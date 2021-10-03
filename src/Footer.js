@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       <section style={ footcss }>
-        <div style={{ textAlign: "center",padding: "10px",position: "relative",  background: "#000000", bottom: "0px"  }}>
+        <div style={{ textAlign: "center",padding: "10px",position: "absolute",  background: "#000000"}}  className="footer">
           <span style={{ color: "White" }}>Semicolons</span>
         </div>
       </section>
