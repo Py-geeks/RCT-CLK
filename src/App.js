@@ -1,13 +1,15 @@
-import Header from './Header';
-import  Footer from './Footer';
-import Clock from './Clock';
+import Header from './Components/Header';
+import  Footer from './Components/Footer';
+import Clock from './Components/Clock';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Clock />
-      <Footer />
+      <div>
+        <Header />
+        <Clock />
+        <Footer />
+      </div>
     </div>
   );
 }
